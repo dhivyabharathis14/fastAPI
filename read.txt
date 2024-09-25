@@ -1,1 +1,12 @@
-Hi
+1. virtual env
+
+cd fastAPI
+python3 -m venv venv
+ 
+2. activate venv
+
+source venv/bin/activate
+
+3. start appliction
+
+uvicorn main:app --reload
